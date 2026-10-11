@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "notes": "Located official primary source pages. NOT an audited syllabus mapping. Confirm document years/URLs when publishing.",
+  "sources": [
+    {
+      "exam": "JEE Main",
+      "year": "2026",
+      "authority": "NTA · India",
+      "url": "https://jeemain.nta.nic.in/document/syllabus-2026/",
+      "kind": "syllabus",
+      "stage": "Source page located"
+    },
+    {
+      "exam": "JEE Advanced",
+      "year": "2026",
+      "authority": "JEE Advanced · India",
+      "url": "https://jeeadv.ac.in/documents/jee-advanced-2026-syllabus.pdf",
+      "kind": "syllabus",
+      "stage": "Official PDF located"
+    },
+    {
+      "exam": "BITSAT",
+      "year": "2026",
+      "authority": "BITS Pilani · India",
+      "url": "https://admissions.bits-pilani.ac.in/FD/downloads/BITSAT_Syllabus.pdf",
+      "kind": "syllabus",
+      "stage": "Official PDF located"
+    },
+    {
+      "exam": "CBSE (XI & XII)",
+      "year": "2026–27",
+      "authority": "CBSE · India",
+      "url": "https://cbseacademic.nic.in/curriculum_2027.html",
+      "kind": "syllabus",
+      "stage": "Official index located"
+    },
+    {
+      "exam": "NEET UG",
+      "year": "2026",
+      "authority": "NTA / NMC · India",
+      "url": "https://neet.nta.nic.in/document/syllabus-for-neet-ug-2026-examination/",
+      "kind": "syllabus",
+      "stage": "Official source page located"
+    },
+    {
+      "exam": "IPE · AP",
+      "year": "2026–27 (check)",
+      "authority": "BIE AP · Andhra Pradesh",
+      "url": "https://bie.ap.gov.in/",
+      "kind": "portal",
+      "stage": "Subject PDF not yet verified"
+    },
+    {
+      "exam": "IPE · TG",
+      "year": "2026–27 (check)",
+      "authority": "TGBIE · Telangana",
+      "url": "https://tgbie.cgg.gov.in/",
+      "kind": "portal",
+      "stage": "Subject PDF not yet verified"
+    },
+    {
+      "exam": "EAPCET · AP",
+      "year": "2026",
+      "authority": "APSCHE · Andhra Pradesh",
+      "url": "https://cets.apsche.ap.gov.in/EAPCET/Eapcet/EAPCET_Homepage.aspx",
+      "kind": "syllabus",
+      "stage": "Official syllabus portal located"
+    },
+    {
+      "exam": "EAPCET · TG",
+      "year": "2026",
+      "authority": "TGCHE · Telangana",
+      "url": "https://eapcet.tgche.ac.in/",
+      "kind": "portal",
+      "stage": "Exact syllabus PDF not yet verified"
+    }
+  ]
+}

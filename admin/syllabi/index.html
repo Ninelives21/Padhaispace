@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fa">
+  <title>Syllabus Inventory · Padhaispace</title>
+  <meta name="description" content="Padhaispace working syllabus comparison for Physics and Chemistry across seven examination pathways.">
+  <link rel="stylesheet" href="../../styles/variables.css">
+  <link rel="stylesheet" href="../../styles/site.css">
+  <script src="../../scripts/syllabus-matrix.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../../index.html" aria-label="Padhaispace home"><span class="brand-mark" aria-hidden="true">p</span><span>padhaispace</span></a>
+      <nav class="header-links" aria-label="Main navigation"><a class="active-link" aria-current="page" href="index.html">Syllabus inventory</a><a href="https://github.com/Ninelives21/Padhaispace" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></nav>
+    </div>
+  </header>
+  <main class="page-shell" id="main">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="../../index.html">Home</a><span aria-hidden="true">/</span><span>Admin</span><span aria-hidden="true">/</span><span aria-current="page">Syllabi</span></nav>
+    <section class="intro intro-admin">
+      <p class="eyebrow">Internal workspace · Source-driven inventory</p>
+      <h1>Syllabus coverage matrix</h1>
+      <p class="lede">One topic list. Seven examination pathways. Official syllabus mapping, with gaps visible instead of guessed.</p>
+    </section>
+    <div class="notice" role="note"><strong>Working inventory.</strong> The topics below are an initial editorial list, not an audited union of official syllabi. A <strong>?</strong> means <em>not yet reviewed</em> — never “excluded”. Changes made here are local to this browser until exported to JSON and committed to GitHub.</div>
+    <section class="matrix-panel" aria-labelledby="matrix-heading">
+      <div class="matrix-title-row">
+        <div><h2 id="matrix-heading">Compare topics by exam</h2><p class="subtext">Select a subject, then click a cell to record a draft coverage decision.</p></div>
+        <div class="summary-stats" id="matrix-stats" aria-live="polite">Loading inventory…</div>
+      </div>
+      <div class="toolbar">
+        <div class="segmented" role="group" aria-label="Subject">
+          <button type="button" id="physics-tab" class="selected" aria-pressed="true">Physics</button>
+          <button type="button" id="chemistry-tab" aria-pressed="false">Chemistry</button>
+        </div>
+        <label class="search-field"><span class="visually-hidden">Search topics</span><span aria-hidden="true">⌕</span><input type="search" id="topic-search" placeholder="Find a topic…" autocomplete="off"></label>
+        <label class="select-field">State <select id="region-select" aria-label="State for IPE and EAPCET"><option value="ap">Andhra Pradesh</option><option value="tg">Telangana</option></select></label>
+      </div>
+      <div class="matrix-meta">
+        <div class="legend" aria-label="Coverage statuses"><span><b class="legend-symbol included">✓</b> In syllabus</span><span><b class="legend-symbol partial">◐</b> Partly covered</span><span><b class="legend-symbol excluded">—</b> Not included</span><span><b class="legend-symbol pending">?</b> Unreviewed</span></div>
+        <span class="subtext">Click a cell to cycle: ? → ✓ → ◐ → — → ?</span>
+      </div>
+      <p class="table-hint">On smaller screens, scroll the table sideways. The topic column stays visible.</p>
+      <div class="table-scroller" role="region" aria-label="Syllabus coverage matrix, horizontally scrollable" tabindex="0">
+        <table class="matrix-table"><caption class="visually-hidden">Coverage by subject topic and examination. All unspecified mappings are unreviewed.</caption><thead><tr id="matrix-header"><th scope="col">Topic</th></tr></thead><tbody id="matrix-body"><tr><td>Loading syllabus topics…</td></tr></tbody></table>
+      </div>
+      <p id="empty-search" class="empty-message" hidden>No topics match this search.</p>
+      <div class="matrix-actions">
+        <p class="subtext" id="edit-status" role="status">Loading…</p>
+        <div class="action-buttons"><button class="button button-secondary" id="reset-button" type="button" disabled>Discard local edits</button><button class="button button-primary" id="export-button" type="button" disabled>Export updated JSON ↓</button></div>
+      </div>
+    </section>
+    <section class="section-block source-section" aria-labelledby="sources-heading">
+      <div class="section-title-row"><div><h2 id="sources-heading">Official source register</h2><p class="subtext">Links and years used for mapping. Links do not imply that the topic-level audit is complete.</p></div></div>
+      <div class="table-scroller source-scroller" role="region" tabindex="0" aria-label="Official syllabus document source register"><table class="sources-table"><thead><tr><th scope="col">Examination</th><th scope="col">Year</th><th scope="col">Authority / jurisdiction</th><th scope="col">Source</th><th scope="col">Stage</th></tr></thead><tbody id="sources-body"><tr><td colspan="5">Loading source register…</td></tr></tbody></table></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="page-shell footer-inner"><span>Padhaispace · Syllabus workspace</span><span>Draft topic taxonomy · Commit exports to preserve changes</span></div></footer>
+</body>
+</html>

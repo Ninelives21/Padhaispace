@@ -1,0 +1,23 @@
+/* Padhaispace design tokens — deliberately close to Pankusdesk's muted blue palette. */
+:root {
+  --page-bg: #f5f7fa;
+  --surface: #ffffff;
+  --surface-soft: #eef4fb;
+  --surface-subtle: #f8fafc;
+  --primary: #234a73;
+  --primary-dark: #193854;
+  --primary-hover: #e6eff8;
+  --text: #24313d;
+  --text-strong: #203040;
+  --text-secondary: #526474;
+  --muted: #687786;
+  --line: #dce3ea;
+  --line-soft: #edf1f4;
+  --green: #176f51;
+  --green-bg: #e9f5ef;
+  --amber: #8b6200;
+  --amber-bg: #fff7e0;
+  --radius: 12px;
+  --content-width: 1160px;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}

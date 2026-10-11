@@ -1,0 +1,416 @@
+{
+  "schema_version": 1,
+  "notes": "Initial editorial topic taxonomy. Inclusion/partial/exclusion MUST be source-verified before publication. Missing coverage means pending/unreviewed.",
+  "columns": [
+    {
+      "id": "jee_main",
+      "label": "JEE Main"
+    },
+    {
+      "id": "jee_advanced",
+      "label": "JEE Advanced"
+    },
+    {
+      "id": "bitsat",
+      "label": "BITSAT"
+    },
+    {
+      "id": "cbse",
+      "label": "CBSE"
+    },
+    {
+      "id": "neet",
+      "label": "NEET"
+    },
+    {
+      "label": "IPE",
+      "regional": {
+        "ap": "ipe_ap",
+        "tg": "ipe_tg"
+      }
+    },
+    {
+      "label": "EAPCET",
+      "regional": {
+        "ap": "eapcet_ap",
+        "tg": "eapcet_tg"
+      }
+    }
+  ],
+  "subjects": {
+    "physics": [
+      {
+        "id": "units-dimensions-and-measurements",
+        "name": "Units, dimensions and measurements",
+        "group": "Foundations"
+      },
+      {
+        "id": "errors-and-significant-figures",
+        "name": "Errors and significant figures",
+        "group": "Foundations"
+      },
+      {
+        "id": "vectors-and-basic-mathematics",
+        "name": "Vectors and basic mathematics",
+        "group": "Foundations"
+      },
+      {
+        "id": "motion-in-a-straight-line",
+        "name": "Motion in a straight line",
+        "group": "Mechanics"
+      },
+      {
+        "id": "motion-in-a-plane-and-projectiles",
+        "name": "Motion in a plane and projectiles",
+        "group": "Mechanics"
+      },
+      {
+        "id": "laws-of-motion",
+        "name": "Laws of motion",
+        "group": "Mechanics"
+      },
+      {
+        "id": "friction",
+        "name": "Friction",
+        "group": "Mechanics"
+      },
+      {
+        "id": "circular-motion",
+        "name": "Circular motion",
+        "group": "Mechanics"
+      },
+      {
+        "id": "work-energy-and-power",
+        "name": "Work, energy and power",
+        "group": "Mechanics"
+      },
+      {
+        "id": "centre-of-mass-and-momentum",
+        "name": "Centre of mass and momentum",
+        "group": "Mechanics"
+      },
+      {
+        "id": "collisions",
+        "name": "Collisions",
+        "group": "Mechanics"
+      },
+      {
+        "id": "rotational-motion",
+        "name": "Rotational motion",
+        "group": "Mechanics"
+      },
+      {
+        "id": "gravitation",
+        "name": "Gravitation",
+        "group": "Mechanics"
+      },
+      {
+        "id": "mechanical-properties-of-solids",
+        "name": "Mechanical properties of solids",
+        "group": "Matter and thermal physics"
+      },
+      {
+        "id": "mechanical-properties-of-fluids",
+        "name": "Mechanical properties of fluids",
+        "group": "Matter and thermal physics"
+      },
+      {
+        "id": "surface-tension-and-viscosity",
+        "name": "Surface tension and viscosity",
+        "group": "Matter and thermal physics"
+      },
+      {
+        "id": "thermal-properties-of-matter",
+        "name": "Thermal properties of matter",
+        "group": "Matter and thermal physics"
+      },
+      {
+        "id": "thermodynamics",
+        "name": "Thermodynamics",
+        "group": "Matter and thermal physics"
+      },
+      {
+        "id": "kinetic-theory-of-gases",
+        "name": "Kinetic theory of gases",
+        "group": "Matter and thermal physics"
+      },
+      {
+        "id": "simple-harmonic-motion",
+        "name": "Simple harmonic motion",
+        "group": "Oscillations and waves"
+      },
+      {
+        "id": "mechanical-waves-and-sound",
+        "name": "Mechanical waves and sound",
+        "group": "Oscillations and waves"
+      },
+      {
+        "id": "wave-superposition-and-standing-waves",
+        "name": "Wave superposition and standing waves",
+        "group": "Oscillations and waves"
+      },
+      {
+        "id": "doppler-effect",
+        "name": "Doppler effect",
+        "group": "Oscillations and waves"
+      },
+      {
+        "id": "electric-charges-and-fields",
+        "name": "Electric charges and fields",
+        "group": "Electricity and magnetism"
+      },
+      {
+        "id": "electrostatic-potential-and-capacitance",
+        "name": "Electrostatic potential and capacitance",
+        "group": "Electricity and magnetism"
+      },
+      {
+        "id": "current-electricity",
+        "name": "Current electricity",
+        "group": "Electricity and magnetism"
+      },
+      {
+        "id": "moving-charges-and-magnetism",
+        "name": "Moving charges and magnetism",
+        "group": "Electricity and magnetism"
+      },
+      {
+        "id": "magnetism-and-matter",
+        "name": "Magnetism and matter",
+        "group": "Electricity and magnetism"
+      },
+      {
+        "id": "electromagnetic-induction",
+        "name": "Electromagnetic induction",
+        "group": "Electricity and magnetism"
+      },
+      {
+        "id": "alternating-current",
+        "name": "Alternating current",
+        "group": "Electricity and magnetism"
+      },
+      {
+        "id": "electromagnetic-waves",
+        "name": "Electromagnetic waves",
+        "group": "Electricity and magnetism"
+      },
+      {
+        "id": "ray-optics-and-optical-instruments",
+        "name": "Ray optics and optical instruments",
+        "group": "Optics"
+      },
+      {
+        "id": "wave-optics",
+        "name": "Wave optics",
+        "group": "Optics"
+      },
+      {
+        "id": "dual-nature-of-radiation-and-matter",
+        "name": "Dual nature of radiation and matter",
+        "group": "Modern and experimental physics"
+      },
+      {
+        "id": "atoms",
+        "name": "Atoms",
+        "group": "Modern and experimental physics"
+      },
+      {
+        "id": "nuclei-and-radioactivity",
+        "name": "Nuclei and radioactivity",
+        "group": "Modern and experimental physics"
+      },
+      {
+        "id": "semiconductor-electronics",
+        "name": "Semiconductor electronics",
+        "group": "Modern and experimental physics"
+      },
+      {
+        "id": "communication-systems",
+        "name": "Communication systems",
+        "group": "Modern and experimental physics"
+      },
+      {
+        "id": "experimental-skills-and-practical-physics",
+        "name": "Experimental skills and practical physics",
+        "group": "Modern and experimental physics"
+      }
+    ],
+    "chemistry": [
+      {
+        "id": "mole-concept-and-stoichiometry",
+        "name": "Mole concept and stoichiometry",
+        "group": "Physical chemistry"
+      },
+      {
+        "id": "atomic-structure",
+        "name": "Atomic structure",
+        "group": "Physical chemistry"
+      },
+      {
+        "id": "states-of-matter-gases-and-liquids",
+        "name": "States of matter: gases and liquids",
+        "group": "Physical chemistry"
+      },
+      {
+        "id": "chemical-thermodynamics",
+        "name": "Chemical thermodynamics",
+        "group": "Physical chemistry"
+      },
+      {
+        "id": "chemical-equilibrium",
+        "name": "Chemical equilibrium",
+        "group": "Physical chemistry"
+      },
+      {
+        "id": "ionic-equilibrium",
+        "name": "Ionic equilibrium",
+        "group": "Physical chemistry"
+      },
+      {
+        "id": "redox-reactions",
+        "name": "Redox reactions",
+        "group": "Physical chemistry"
+      },
+      {
+        "id": "solutions-and-colligative-properties",
+        "name": "Solutions and colligative properties",
+        "group": "Physical chemistry"
+      },
+      {
+        "id": "electrochemistry",
+        "name": "Electrochemistry",
+        "group": "Physical chemistry"
+      },
+      {
+        "id": "chemical-kinetics",
+        "name": "Chemical kinetics",
+        "group": "Physical chemistry"
+      },
+      {
+        "id": "solid-state",
+        "name": "Solid state",
+        "group": "Physical chemistry"
+      },
+      {
+        "id": "surface-chemistry",
+        "name": "Surface chemistry",
+        "group": "Physical chemistry"
+      },
+      {
+        "id": "classification-and-periodicity",
+        "name": "Classification and periodicity",
+        "group": "Inorganic chemistry"
+      },
+      {
+        "id": "chemical-bonding-and-molecular-structure",
+        "name": "Chemical bonding and molecular structure",
+        "group": "Inorganic chemistry"
+      },
+      {
+        "id": "hydrogen",
+        "name": "Hydrogen",
+        "group": "Inorganic chemistry"
+      },
+      {
+        "id": "s-block-elements",
+        "name": "s-block elements",
+        "group": "Inorganic chemistry"
+      },
+      {
+        "id": "p-block-elements",
+        "name": "p-block elements",
+        "group": "Inorganic chemistry"
+      },
+      {
+        "id": "d-and-f-block-elements",
+        "name": "d- and f-block elements",
+        "group": "Inorganic chemistry"
+      },
+      {
+        "id": "coordination-compounds",
+        "name": "Coordination compounds",
+        "group": "Inorganic chemistry"
+      },
+      {
+        "id": "metallurgy-and-isolation-of-elements",
+        "name": "Metallurgy and isolation of elements",
+        "group": "Inorganic chemistry"
+      },
+      {
+        "id": "environmental-chemistry",
+        "name": "Environmental chemistry",
+        "group": "Inorganic chemistry"
+      },
+      {
+        "id": "purification-and-characterisation-of-organic-compounds",
+        "name": "Purification and characterisation of organic compounds",
+        "group": "Organic chemistry"
+      },
+      {
+        "id": "general-organic-chemistry-and-reaction-mechanisms",
+        "name": "General organic chemistry and reaction mechanisms",
+        "group": "Organic chemistry"
+      },
+      {
+        "id": "isomerism-and-stereochemistry",
+        "name": "Isomerism and stereochemistry",
+        "group": "Organic chemistry"
+      },
+      {
+        "id": "hydrocarbons",
+        "name": "Hydrocarbons",
+        "group": "Organic chemistry"
+      },
+      {
+        "id": "haloalkanes-and-haloarenes",
+        "name": "Haloalkanes and haloarenes",
+        "group": "Organic chemistry"
+      },
+      {
+        "id": "alcohols-phenols-and-ethers",
+        "name": "Alcohols, phenols and ethers",
+        "group": "Organic chemistry"
+      },
+      {
+        "id": "aldehydes-ketones-and-carboxylic-acids",
+        "name": "Aldehydes, ketones and carboxylic acids",
+        "group": "Organic chemistry"
+      },
+      {
+        "id": "amines-and-diazonium-salts",
+        "name": "Amines and diazonium salts",
+        "group": "Organic chemistry"
+      },
+      {
+        "id": "biomolecules",
+        "name": "Biomolecules",
+        "group": "Organic chemistry"
+      },
+      {
+        "id": "polymers",
+        "name": "Polymers",
+        "group": "Organic chemistry"
+      },
+      {
+        "id": "chemistry-in-everyday-life",
+        "name": "Chemistry in everyday life",
+        "group": "Organic chemistry"
+      },
+      {
+        "id": "qualitative-chemical-analysis",
+        "name": "Qualitative chemical analysis",
+        "group": "Practical and analytical chemistry"
+      },
+      {
+        "id": "volumetric-and-quantitative-analysis",
+        "name": "Volumetric and quantitative analysis",
+        "group": "Practical and analytical chemistry"
+      },
+      {
+        "id": "practical-organic-chemistry-and-laboratory-techniques",
+        "name": "Practical organic chemistry and laboratory techniques",
+        "group": "Practical and analytical chemistry"
+      }
+    ]
+  }
+}
